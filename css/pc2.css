@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Americantypewriter';
+
+
+}
+
+
+body{
+
+  background-color: #FFB900;
+}
+
+
+nav{
+  background: #78461D;
+  border: 1px solid black;
+  height: 77px;
+  width: 100%;
+
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -900px;
+
+}
+
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+nav ul{
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+  padding: 5px;
+}
+
+nav ul li{
+  float: left;
+  display: inline-block;
+  background: #78461D;
+  margin: 0 5px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+line-height: 70px;
+font-size: 18px;
+padding: 8px 15px;
+
+}
+
+nav ul ul{
+
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top .3s;
+}
+
+
+
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 160px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid black;
+}
+
+
+nav ul ul ul li{
+position: relative;
+top: -70px;
+left: 150px;
+}
+
+
+
+.logo{
+  color: white;
+  float: left;
+  font-size: 40px;
+  font-weight: 300px;
+  line height: 70px;
+  padding-left: 60px;
+  padding-top: 15px;
+
+
+}
+
+
+nav ul li a:hover{
+  color: #F0D32E;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #F0D32E,
+              0 0 5px #F0D32E;
+}
+
+
+
+
+nav ul li:hover > ul{
+  opacity: 1;
+  visibility: visible;
+  top: 70px;
+
+}
+
+
+
+nav ul ul li a{
+  line-height: 50px;
+
+}
+
+
+nav ul ul li a:hover{
+  color: #F0D32E;
+  box-shadow: none;
+}
+
+
+.marca{
+  height: 600px;
+  width: 800px;
+  margin-left: 100px;
+  opacity: 0.5;
+}
+
+
+#btn-menu{
+display: none;
+}
+
+.btn{
+  display: none;
+}
+
+
+.foto{
+  width: 800px;
+  height: 600px;
+background-color: black;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto1{
+  width:300px;
+  height: auto;
+  background-color: #78461D;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  float: left;
+  position: relative;
+
+}
+
+
+
+
+.ingredients{
+padding: 10px;
+  width: 100%;
+  height: 100%;
+    background-color: black;
+    position: relative;
+color: white;
+    border: 1px solid black;
+
+
+}
+
+
+
+.preparacion{
+padding: 10px;
+  width: 100%;
+  height: 100%;
+    background-color: #FFB900 ;
+    position: relative;
+
+    border: 1px solid black;
+}
+
+
+
+
+.texto2{
+  width:600px;
+  height: auto;
+  background-color: #78461D ;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  float: right;
+}
+
+
+
+.t1{
+
+  text-align: center;
+}
+
+
+
+
+.t2{
+
+  text-align: center;
+}
+
+
+.general{
+  width: 1000px;
+  height: 600px;;
+  background-color: ;
+  margin: auto;
+  margin-top: 700px;
+}
+
+
+.lista{
+  margin-left: 10px;
+}
+
+
+#img{
+  width: 800px;
+  height: 600px;
+}
