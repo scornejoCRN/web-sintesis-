@@ -1,0 +1,45 @@
+body{
+background-color: #FFB900;
+font-family: 'american typewriter';
+}
+
+
+#formulario{
+  width: 300px;
+  background-color: #FFB900 ;
+  height: 500px;
+  margin: auto;
+  border: ;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cajas{
+  width: 250px;
+  height: 30px;
+  background-color:  white;
+  margin: 20px;
+
+}
+
+
+.cajas, placeholder {
+  font-family: 'american typewriter';
+  font-style: italic;
+}
+
+
+
+
+h1{
+  text-align: center;
+}
+
+
+.entra{
+  width: 100px;
+  height: 30px;
+  background-color: orange;
+  margin: 10px;
+  margin-top: 30px;
+}

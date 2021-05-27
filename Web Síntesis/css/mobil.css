@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Americantypewriter';
+  font-size: 10px;
+
+
+}
+
+
+body{
+
+  background-color: #FFB900;
+}
+
+nav{
+  background: #78461D;
+  border: 1px solid black;
+  height: 40px;
+  width: 425px;
+  margin-top: -435px;
+  position: relative;
+  margin-left: -35px;
+  margin-right: 0;
+}
+
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.cont{
+display: block;
+float:  left;
+margin-top: 5px;
+background-color: #78461D;
+position: absolute;
+list-style: none;
+margin-left: 0;
+height: 250px;
+opacity: 0;
+transition: .5s;
+width: 130px;
+text-align: left;
+
+
+}
+
+nav ul li{
+background-color: #78461D;
+position: relative;
+padding: 20px 5px;
+margin-left: 0;
+height: 50px;
+width: 100%;
+border-bottom: 1px solid black;
+
+
+
+}
+
+
+nav ul li a {
+color: white;
+text-decoration: none;
+line-height: 10px;
+font-size: 10px;
+margin-left: 10px;
+margin-top: 5px;
+
+}
+
+
+nav ul ul{
+
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top .3s;
+}
+
+
+
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 130px;
+  float: none;
+  display: list-item;
+  background-color: #78461D;
+  text-align: left;
+  padding: 5px 5px;
+
+}
+
+nav ul ul ul li{
+position: relative;
+top: 0;
+left: 0;
+padding: 0px 10px;
+text-align: left;
+
+}
+
+
+
+.logo{
+  color: white;
+  float: right;
+  font-size: 18px;
+  font-weight: 300px;
+  line height: 40px;
+margin-right: 85px;
+  padding-top: 8px;
+
+
+
+
+}
+
+
+nav ul li a:hover{
+  color: #F0D32E;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #F0D32E,
+              0 0 5px #F0D32E;
+}
+
+
+
+
+nav ul li:hover > ul{
+  opacity: 1;
+  visibility: visible;
+  top: 0px;
+  margin-left: 125px;
+  background-color: ;
+  list-style: none;
+  font-size: 10px;
+  color: white;
+
+
+}
+
+
+
+nav ul ul li a{
+  line-height: 50px;
+
+}
+
+
+nav ul ul li a:hover{
+  color: #F0D32E;
+  box-shadow: none;
+}
+
+
+.marca{
+  height: 500px;
+  width: 800px;
+  margin-left: 100px;
+  opacity: 0.5;
+}
+
+
+#btn-menu:checked ~ .cont{
+  opacity: 1;
+}
+
+
+#btn-menu{
+display: none;
+}
+
+nav label{
+
+}
+
+
+
+.btn{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+
+
+
+.container{
+  margin: auto;
+  background-color: ;
+  width: 100%;
+  padding: 30px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 400px;
+  height: 200px;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  background: ;
+}
+
+ul.slider li {
+  width: 320px;
+  height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+
+    transition: opacity .5s;
+    background: #FFB900;
+    padding: 0px;
+}
+
+ul.slider li img{
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #FFB900;
+
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: #78461D;
+  text-decoration: none;
+
+  padding: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 10px;
+  border-radius: 100%;
+
+}
+
+
+.ññ{
+  width: 100%;
+  height: 100%;
+  background-color: ;
+  margin: 0;
+  padding: 0;
+}
