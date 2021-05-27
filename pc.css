@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Americantypewriter';
+
+
+}
+
+
+body{
+
+  background-color: #FFB900;
+}
+
+nav{
+  background: #78461D;
+  border: 1px solid black;
+  height: 77px;
+  width: 1920px;
+  margin-top: -86%;
+  position: relative;
+  margin-left: -490px;
+  margin-right: 0;
+
+}
+
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+nav ul{
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+  padding: 5px;
+}
+
+nav ul li{
+  float: left;
+  display: inline-block;
+  background: #78461D;
+  margin: 0 5px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+line-height: 70px;
+font-size: 18px;
+padding: 8px 15px;
+
+}
+
+nav ul ul{
+
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top .3s;
+}
+
+
+
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 160px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid black;
+}
+
+
+nav ul ul ul li{
+position: relative;
+top: -70px;
+left: 150px;
+}
+
+
+
+.logo{
+  color: white;
+  float: left;
+  font-size: 40px;
+  font-weight: 300px;
+  line height: 70px;
+  padding-left: 60px;
+  padding-top: 15px;
+
+
+}
+
+
+nav ul li a:hover{
+  color: #F0D32E;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #F0D32E,
+              0 0 5px #F0D32E;
+}
+
+
+
+
+nav ul li:hover > ul{
+  opacity: 1;
+  visibility: visible;
+  top: 70px;
+
+}
+
+
+
+nav ul ul li a{
+  line-height: 50px;
+
+}
+
+
+nav ul ul li a:hover{
+  color: #F0D32E;
+  box-shadow: none;
+}
+
+
+.marca{
+  height: 500px;
+  width: 800px;
+  margin-left: 100px;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+.container{
+  margin: auto;
+  background-color: ;
+  width: 1000px;
+  padding: 30px;
+
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 860px;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background: #FFB900;
+    padding: 0px;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: #78461D;
+  text-decoration: none;
+
+  padding: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 100%;
+
+}
+
+
+#btn-menu{
+display: none;
+}
+
+nav label{
+  display: none;
+}
+
+
+.ññ{
+  width: 100%;
+  height: 100%;
+  background-color: ;
+  margin: 0px;
+  padding: 0;
+}
